@@ -36,9 +36,9 @@ while keepGoing.lower() == "y":
     print("----------------")
 
     print("Order has been received. ETA 3 mins!")
-    for min in range(3, 1 ,-1):
+    for min in range(3, 1, -1):
         print(min, "minutes remaining")
-        for seconds in range(60, 0 -1):
+        for seconds in range(60, 0, -1):
             print(seconds, end = " \r")
             import time
             time.sleep(1)
